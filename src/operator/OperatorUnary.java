@@ -10,5 +10,18 @@ public class OperatorUnary {
         i=i+1;                  // bisa dilihat i++ sama dengan i = i+1
         System.out.println(i);  // i tadinya 2 sekarang jadi 3
 
+        //berlaku juga untuk penambahan angka lain dan operator arimatika lain
+        i+=3;   // sama dengan i = i+3
+        System.out.println(i);
+
+        i+=3;
+        System.out.println(i);
+
+        i*=3;   // sama dengan i = i*3
+        System.out.println(i);
+
+        i*=3;
+        System.out.println(i);
+
     }
 }
